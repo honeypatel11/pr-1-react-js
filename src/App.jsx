@@ -3,6 +3,9 @@ import Header from './components/Header'
 
 import Home from './components/Home'
 import About from './components/About'
+import Trust from './components/Trust'
+import Feature from './components/Feature'
+import Courses from './components/Courses'
 
 const App = () => {
   return (
@@ -10,7 +13,10 @@ const App = () => {
       <Header/>
       <Home/>
       <About/>
-    </div>
+      <Trust/>
+      <Feature/>
+     <Courses/>
+     </div>
   )
 }
 
