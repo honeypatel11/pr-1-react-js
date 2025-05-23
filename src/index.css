@@ -199,5 +199,24 @@ input:focus {
   width: 72px;
 }
 .footer-bg{
-  background-image: url('https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.j');
+  background-image: url('https://bestwpware.com/react-templates/edumim/static/media/footer-bg-1.88b03532c53d8716ebf5.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.footer-title{
+  font-size: 18px;
+}
+.icon-footer {
+  height: 20px;
+  width: 20px;
+  background-color: #1f2638;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-text{
+  color: #7b7b8a;
+  font-size: 16px;
+  line-height: 35px;
 }
