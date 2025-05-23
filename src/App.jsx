@@ -6,6 +6,9 @@ import About from './components/About'
 import Trust from './components/Trust'
 import Feature from './components/Feature'
 import Courses from './components/Courses'
+import Learningplatform from './components/Learningplatform'
+import Subscriber from './components/Subscriber'
+import Populartopic from './components/Populartopic'
 
 const App = () => {
   return (
@@ -16,6 +19,9 @@ const App = () => {
       <Trust/>
       <Feature/>
      <Courses/>
+     <Learningplatform/>
+     <Subscriber/>
+     <Populartopic/>
      </div>
   )
 }
