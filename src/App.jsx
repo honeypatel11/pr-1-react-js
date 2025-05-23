@@ -9,6 +9,7 @@ import Courses from './components/Courses'
 import Learningplatform from './components/Learningplatform'
 import Subscriber from './components/Subscriber'
 import Populartopic from './components/Populartopic'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
      <Learningplatform/>
      <Subscriber/>
      <Populartopic/>
+     <Footer/>
      </div>
   )
 }

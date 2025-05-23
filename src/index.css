@@ -164,8 +164,40 @@ input:focus {
   color: #0c1327;
   font-weight: 600;
 }
-.subscriber-bg
-{
-  background-color: #30bead;
+
+.subscriber-bg {
+  background-image: url('https://bestwpware.com/react-templates/edumim/static/media/section-bg-3.7d0f6b62b5e0189eb639.png');
   padding: 50px 50px;
+}
+
+.outline-none {
+  outline: none !important;
+  border: none !important;
+}
+
+.text-font::placeholder {
+  color: #abe0dc !important;
+}
+
+.font-green {
+  color: #30bead;
+}
+
+.card-3 {
+  padding: 65px 24px;
+  background-color: #ffe8e8;
+  border-radius: 10px;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  height: 72px;
+  width: 72px;
+}
+.footer-bg{
+  background-image: url('https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.j');
 }
