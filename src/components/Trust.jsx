@@ -5,7 +5,7 @@ const Trust = () => {
         <div>
             <div className="container">
                 <p className='text-center fs-4 mb-5'><span className='shape-bg'>Trusted</span> By 1k+ Company Arround The World!</p>
-                <div className="d-flex mb-5">
+                <div className="row gy-5 mb-5">
                     <div className="col">
                         <img src="https://bestwpware.com/react-templates/edumim/static/media/1.92f0e9a37a88da82e08ce77a297d0263.svg" alt="" />
                     </div>

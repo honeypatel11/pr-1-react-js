@@ -1,11 +1,12 @@
 import React from 'react'
+import Button from './Button'
 
 const Footer = () => {
   return (
     <section className='footer-bg'>
-      <div className="container padding">
-        <div className='d-flex gap-5'>
-          <div className="col-4">
+      <div className="container ">
+        <div className='row justify-content-between gy-3'>
+          <div className="col-md-4">
             <div>
               <img src="https://bestwpware.com/react-templates/edumim/static/media/footer-logo.04abc89d897eb1ebbbdfb7c8e4905bb1.svg" alt="" width={"40%"} />
             </div>
@@ -29,8 +30,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
-            <div  className='d-flex'>
+          <div className="col-md-4">
+            <div className='d-flex'>
               <div>
                 <h4 className="ps-5 fw-bold text-white">Links</h4>
                 <ul className='ps-5 link-text '>
@@ -44,25 +45,28 @@ const Footer = () => {
               </div>
               <div>
                 <div>
-                <h4 className="ps-5  fw-bold text-white">Legal</h4>
-                <ul className='ps-5 link-text '>
-                  <li className=''>Legal</li>
-                  <li>Tearms of Use</li>
-                  <li>Tearm & Condition</li>
-                  <li>Payment Method</li>
-                  <li>Privacy Policy</li>
-                  <li>Privacy Policy</li>
-                </ul>
-              </div>
+                  <h4 className="ps-5  fw-bold text-white">Legal</h4>
+                  <ul className='ps-5 link-text '>
+                    <li className=''>Legal</li>
+                    <li>Tearms of Use</li>
+                    <li>Tearm & Condition</li>
+                    <li>Payment Method</li>
+                    <li>Privacy Policy</li>
+                    <li>Privacy Policy</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-         
-          <div className="col-4">
+
+          <div className="col-md-4">
             <div>
-              <h4 className="  fw-bold text-white">Newsletter</h4>
+              <h4 className="fw-bold text-white">Newsletter</h4>
               <div className='link-text'>Join over <span class="text-danger underline">68,000</span> people getting our <br /> emails Lorem ipsum dolor sit amet <br /> consectet</div>
             </div>
+            <button className='rounded-2 p-3 my-3 text-secondary w-75'>Enter Your Mail</button>
+            <Button name="Subscribe Now" className="text-center" />
+
           </div>
         </div>
       </div>

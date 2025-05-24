@@ -17,7 +17,7 @@ const Courses = () => {
         {
             img: "https://bestwpware.com/react-templates/edumim/static/media/c3.793be6d17a4e4b997871.png",
             price: "$72.39",
-            des: "Introduction to Color Theory & Basic UI/ UX",
+            des: "Introduction to Color Theory & Basic UI/ UX & Graphis" ,
         },
         {
             img: "https://bestwpware.com/react-templates/edumim/static/media/c4.df2ca87cc98f561c4e2f.png",
@@ -27,7 +27,7 @@ const Courses = () => {
         {
             img: "https://bestwpware.com/react-templates/edumim/static/media/c5.7fe367ef9d8a61be7e1f.png",
             price: "Free",
-            des: "Logo Design: From Concept to Presentation",
+            des: "Logo Design: From Concept to Presentation & More",
         },
         {
             img: "https://bestwpware.com/react-templates/edumim/static/media/c6.2faa1f0643c49baaa3e6.png",
@@ -48,20 +48,7 @@ const Courses = () => {
                         })
                     }
                 </div>
-                <div>
-                    <div>
-                        <div></div>
-                        <div>2 Lessons</div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>4h 30m</div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>4.5</div>
-                    </div>
-                </div>
+            
                 <div className='text-center'>
                     <Button name="View All Courses" />
                 </div>

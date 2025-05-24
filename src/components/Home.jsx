@@ -28,7 +28,7 @@ const Home = () => {
                             </div>
 
                         </div>
-                        <div className="col-6">
+                        <div className="d-none d-xl-flex col-6">
                             <div className='home-img'>
                                 <img src="./public/images/homeimg.png" alt="" />
                             </div>

@@ -17,22 +17,28 @@
 }
 
 .all-btn {
-  background-color: #ff7e84;
-  padding: 15px 32px;
-  font-size: 18px;
-
-  color: #ffff;
-  border: none;
+  background-color: #ff7f8c;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: 2px solid #ff7f8c;
   border-radius: 10px;
-  transition: 0.2s all linear;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* .all-btn:hover{
-  outline: 3px solid #ff7e84;
-} */
+.all-btn:hover {
+  background-color: #ff5f70;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  ;
+}
+
 .home-bg {
   background-image: url('../public/images/back.png');
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   height: 100vh;
 
 }
@@ -134,7 +140,7 @@ input:focus {
 .learn-bg {
   background-image: url('https://bestwpware.com/react-templates/edumim/static/media/section-bg-2.6c75675b7dfceb5c43be.png');
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .box-icon {
@@ -198,14 +204,17 @@ input:focus {
   height: 72px;
   width: 72px;
 }
-.footer-bg{
+
+.footer-bg {
   background-image: url('https://bestwpware.com/react-templates/edumim/static/media/footer-bg-1.88b03532c53d8716ebf5.png');
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
 }
-.footer-title{
+
+.footer-title {
   font-size: 18px;
 }
+
 .icon-footer {
   height: 20px;
   width: 20px;
@@ -215,7 +224,8 @@ input:focus {
   align-items: center;
   justify-content: center;
 }
-.link-text{
+
+.link-text {
   color: #7b7b8a;
   font-size: 16px;
   line-height: 35px;

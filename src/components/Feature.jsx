@@ -26,7 +26,7 @@ const Feature = () => {
 
 
             <div className="container">
-                <div className="d-flex gap-3 py-5 my-5">
+                <div className="row gap-5 py-5 my-5">
 
                     {
                         arr.map((items) => {

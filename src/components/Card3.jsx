@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card3 = (props) => {
     return (
-        <div className="col-3">
+        <div className="col-md-3">
 
             <div>
 

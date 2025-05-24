@@ -6,12 +6,12 @@ const About = () => {
     <section>
         <div className="container padding">
             <div className="row">
-                <div className="col-6">
+                <div className="col-xl-6">
                     <div>
-                        <img src="/images/aboutimg.png" alt="" />
+                        <img src="/images/aboutimg.png" alt="" className='img-fluid'/>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-xl-6">
                     <p className='home-description fw-semibold'>About Edumim</p>
                     <h4 className='fs-1 mb-4 fw-bold'>The Place Where You Can <span className='shape-bg'>Achieve</span></h4>
                     <p className='text-secondary fs-5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>

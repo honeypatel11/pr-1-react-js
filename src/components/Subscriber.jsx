@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscriber = () => {
     return (
-        <section className='subscriber-bg'>
+        <section className='subscriber-bg padding'>
             <div className="container">
                 <div className='d-flex justify-content-between align-items-center'>
                     <div className="col-4">

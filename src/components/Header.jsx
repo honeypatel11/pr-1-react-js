@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Header = () => {
     return (
-        <header className='my-3 '>
+        <header className='my-3 sticky-top'>
             <div className='container'>
                 <div className='d-flex justify-content-between align-items-center'>
                     <div>
