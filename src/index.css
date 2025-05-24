@@ -209,6 +209,7 @@ input:focus {
   background-image: url('https://bestwpware.com/react-templates/edumim/static/media/footer-bg-1.88b03532c53d8716ebf5.png');
   background-repeat: no-repeat;
   /* height: 100vh; */
+  background-size: cover;
 }
 
 .footer-title {
@@ -230,3 +231,22 @@ input:focus {
   font-size: 16px;
   line-height: 35px;
 }
+.card{
+  transition: .2s all linear;
+}
+
+.card:hover{
+  background-color: #ff7f8c;
+  transform: translateY(-2px);
+  color: white !important;
+}
+
+.card-3{
+  transition: .2s all linear;
+}
+.card-3:hover{
+  background-color: #ffffff;
+   transform: translateY(-2px);
+}
+ 
+
